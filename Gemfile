@@ -23,8 +23,8 @@ group :development do
   gem 'shakespeareIpsum'
 end
 
+gem 'rspec'
 group :test do
   gem 'shakespeareIpsum'
   gem 'faker'
-  gem 'rspec'
 end
