@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'passportregular';
+    src: url('../passport-webfont.eot');
+    src: url('../passport-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../passport-webfont.woff') format('woff'),
+         url('../passport-webfont.ttf') format('truetype'),
+         url('../passport-webfont.svg#passportregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'passportbold';
+    src: url('../passport_bold-webfont.eot');
+    src: url('../passport_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../passport_bold-webfont.woff') format('woff'),
+         url('../passport_bold-webfont.ttf') format('truetype'),
+         url('../passport_bold-webfont.svg#passportbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#passport{
+ opacity: 0.3;
+ z-index: -1;
+}
+#map {
+  z-index: -2;
+  top: 1%;
+  width: 100%;
+  height: auto;
+  max-height: 100%
+}
+#left{
+  position: absolute;
+  top:1%;
+  left: 2.5%;
+  width: 48%;
+  height: 100%;
+  /*background-color: red;*/
+}
+#right {
+  position: absolute;
+  top:1%;
+  right: 2.5%;
+  width: 47%;
+  height: 100%;
+  /*background-color: blue;*/
+  display: inline-block;
+
+}
+#leftHeader {
+  position: relative;
+  height: 35%;
+  margin: 3% 5% 0% 0%;
+  font-family: 'passportregular';
+}
+.band {
+  position: relative;
+  width: 100%;
+  height: 85%;
+}
+#leftHeader img {
+  position: relative;
+  height: 100%;
+  width: auto;
+  float: left;
+  display: inline-block;
+}
+
+#catchphrase {
+  position: relative;
+  top: 40%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'passportbold';
+  overflow: hidden;
+  color: #5157B0;
+  /*font-weight: bold;*/
+  /*width: auto;*/
+}
+#headerfooter {
+  position: relative;
+  left: 6%;
+  color: #4a9292;
+  font-family: 'passportbold';
+}
+#rightHeader {
+  position: relative;
+  height: 35%;
+  margin: 3% 5% 0% 5%;
+}
+#rightHeader form {
+  position: relative;
+  top: 40%;
+
+}
+.submission {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+form label {
+  vertical-align: top;
+  color: #5157B0;
+  font-family: 'passportbold'; 
+}
+.content {
+  margin: 3% 5% 0% 5%;
+  font-family: 'passportregular';
+}
+
+.city {
+  color: #4a9292;
+  font-family: 'passportbold';
+}
+
+.content .title {
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.articleWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+#singlePage {
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: -1;
+}
+.articleBanner {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.articleContent {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  height: 95%;
+  top: 5%;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.describer {
+  font-family: 'passportregular';
+  position: relative;
+  display: inline-block;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  height: 90%;
+  color: #5157B0;
+}
+
+.articleCity {
+  position: relative;
+  color: #4a9292;
+  font-family: 'passportbold';
+  font-size: 30px;
+}
+.title {
+  margin-top: 10px;
+}
+.articleBody {
+  position: relative;
+  font-family: 'passportregular';
+  width: 80%;
+  left: 10%;
+  color: #5157B0;
+}
+
+#responseDiv {
+  position: relative;
+  display: block;
+  color: red;
+}
+
+.content p {
+  font-size: 13px;
+  display: inline-block;
+  margin: 5px 0px 5px 0px;
+  padding: 0px 0px 0px 0px;
+  color: #5157B0;
+}
+.highlight {
+  font-size: 13px;
+  color: #4a9292;
+  font-weight: bold;
+}
+.headline {
+  margin: 10px 0px 10px 0px;
+  color: #4a9292;
+  font-size: 1.17em;
+  font-weight: bold;
+ }
+ 
+a {
+  color: #5157B0;
+}
+
+.content h3 {
+  color: #5157B0;
+}
+
+#submitButton {
+ font-family: 'passportregular'; 
+}
+
+::-webkit-input-placeholder {
+   font-family: 'passportregular'; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'passportregular';   
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'passportregular';   
+}
+
+:-ms-input-placeholder {  
+   font-family: 'passportregular';   
+}

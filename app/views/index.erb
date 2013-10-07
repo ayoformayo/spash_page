@@ -1,0 +1,47 @@
+<img class='background' id='map' src="Map-02.png">
+<img class='background' id='passport' src="Passport-03.png">
+<div id='left'>
+  <div id='leftHeader'>
+    <div class='band'>
+      <img src="Logo-04.png" id='logo'>
+      <div id='catchphrase'>Beta Coming End of 2013</div>
+    </div>
+    <div id='headerfooter'>Your passport to the world.</div>
+  </div>
+  <div class='content'>
+    <div class='headline'>We're a group of expert Travel Sages.</div>
+    <p>Our unique stories help you create authentic experiences in the cities where you live and travel.</p>
+    <p>Our City, Place and Content tags allow you to follow content that interests you.</p>
+    <div class='highlight'>You share your travel tales by uploading features on cities and place you live and visit.</div>
+    <p>You'll be asked to become a Sage if our users like your content enough.</p>
+    <p><span class='highlight'>Think You're a Travel Sage?</span> Apply to write for us by sending a writing sample and travel resume to: sages@travelsages.com</p>
+  </div>
+</div>
+<div id='right'>
+  <div id='rightHeader'>
+    <div class='band'>
+      <form name='post[email]' id='submitEmail' method='post' action='/' >
+        <label for="address">Want to learn more?</label>
+        <div class='submission'>
+          <input type='text' name='address' id='address' placeholder='Enter email.'>
+          <input type='submit' value='Submit' id='submitButton'>
+          <div id='responseDiv'></div>
+        </div>
+      <form>
+    </div>  
+  </div>
+  <div class='content'>
+    <h3>Sample our Features.</h3>
+    <div class='features'>
+      <% @articles.each do |article| %>
+        <div class='article'>
+          <div class='city'><%= article.city %></div>
+          <div class='title'> <a href=<%="/articles/#{article.id}"%>><%= article.title %></a></div>
+        </div>
+        <br>
+      <% end  %>
+
+    </div>
+  </div>
+</div>
+<!-- <div id='container'></div> -->

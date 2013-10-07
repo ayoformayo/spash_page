@@ -5,6 +5,7 @@ ruby '2.0.0'
 # PostgreSQL driver
 gem 'pg'
 
+
 # Sinatra driver
 gem 'sinatra'
 gem 'sinatra-contrib'
@@ -18,8 +19,12 @@ gem 'activerecord'
 gem 'rake'
 
 gem 'shotgun'
+group :development do
+  gem 'shakespeareIpsum'
+end
 
 group :test do
+  gem 'shakespeareIpsum'
   gem 'faker'
   gem 'rspec'
 end
