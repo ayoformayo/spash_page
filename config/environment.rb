@@ -10,7 +10,7 @@ require 'rubygems'
 
 require 'uri'
 require 'pathname'
-require 'shakespeareIpsum'
+
 
 require 'pg'
 require 'active_record'
