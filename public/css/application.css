@@ -224,6 +224,18 @@ a {
   color: #5157B0;
 }
 
+.icons a{
+ color: #5157B0; 
+ font-size: 3em;
+ padding: 5px 20px 5px 20px;
+ text-decoration: none;
+}
+.icons {
+  position: absolute;
+  bottom: 0px;
+  /*margin-top: 15px;*/
+}
+
 #submitButton {
  font-family: 'passportregular'; 
 }
